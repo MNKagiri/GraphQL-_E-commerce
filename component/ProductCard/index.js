@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import {Box, Text, Image, Divider, useColorModeValue} from '@chakra-ui/react'
-import ColorContext from '../../lib/context/Colors'
+
 import { useContext } from 'react'
 
 export default function ProductCard(props){
 
-    const  [bg, setBg ,text, setText] = useContext(ColorContext)
 
     const background_color = useColorModeValue('#fafafa', '#404258' )
     const card_color = useColorModeValue('gray.200', '#474E68')

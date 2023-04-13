@@ -4,7 +4,6 @@ import getProductDetail from "../../lib/graphql/queries/getProductDetail";
 import {Box, Flex, Grid, Text, Image, Divider, Button, Select, useColorMode, useColorModeValue} from '@chakra-ui/react'
 import {useContext, useState} from 'react'
 import CartContext from "../../lib/context/Cart";
-import useColorContext  from "../../lib/context/Colors";
 import { signIn, signOut, useSession } from 'next-auth/react'
 
 
