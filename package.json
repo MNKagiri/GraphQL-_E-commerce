@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@stripe/stripe-js": "^1.41.0",
+    "bootstrap": "^5.2.2",
+    "framer-motion": "^6",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "mongoose": "^7.0.1",
     "next": "12.3.1",
+    "next-auth": "^4.20.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-square-web-payments-sdk": "^3.2.1",
+    "stripe": "^10.14.0"
   },
   "devDependencies": {
     "eslint": "8.24.0",

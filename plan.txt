@@ -1,0 +1,6 @@
+Objective: Authenticate and introduce light mode 
+1. Create log in function - done
+2. generate jws secret
+3. create sign up form - 
+4. make light and dark mode
+5. deploy 
