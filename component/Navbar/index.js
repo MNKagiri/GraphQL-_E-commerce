@@ -38,24 +38,10 @@ const background_color = useColorModeValue('#fafafa', '#404258' )
                 </Link>
                 {
                     session ? <Box > <Button onClick = {() => signOut()}> Log Out</Button></Box>
-                    :
-                    
-                        <Popover>
-                          <PopoverTrigger>
-                             <Button>  <MdAccountCircle/>
-                              
-                             </Button>
-                                </PopoverTrigger>
-                                     <PopoverContent>
-                                      <PopoverArrow />
-                                      <PopoverCloseButton />
-                                           {/*  <PopoverHeader marginRight={20}>Confirmation!   </PopoverHeader> */}
-                                                    <PopoverBody> 
-                                                        <Button onClick={() => signIn()}>Log In</Button>
-                                                        <Button >Sign Up</Button>
-                                                    </PopoverBody>
-                                         </PopoverContent>
-                                                </Popover>
+                    :        
+            <Button onClick={() => signIn()}>Log In</Button>
+                                        
+                                           
                 }
 
                 <Button onClick={toggleColorMode}> {colorMode  === 'light' ? <MdDarkMode/> :  <MdWbSunny/>}</Button>
